@@ -30,7 +30,7 @@ export default function Faq() {
     }
 
     return (
-        <div className="container mx-auto p-5 md:mb-10">
+        <div className="container mx-auto px-5 pt-0">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-10 lg:gap-20">
                 <div className="flex justify-between flex-col lg:max-w-sm">
                     <div>

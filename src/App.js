@@ -18,17 +18,17 @@ export default function App() {
         <Navigation />
         <Banner />
       </div>
-      {/* <Carousel /> */}
-      <Services /> 
-       <About />
+      <Carousel />
+      <Services />
+      <About />
       <Shape />
       <div className="bg-gray">
         <Accesible />
-         <Faq />
-        <LegalServices /> 
+        <Faq />
+        <LegalServices />
       </div>
       <Expert />
-      <Footer /> 
+      <Footer />
     </div>
   )
 }

@@ -57,11 +57,11 @@ export default function Accordions() {
                         <div className="accordion sm:max-w-md md:max-w-3xl lg:max-w-md">
                             <div className="text-lg md:h5 mb-5 font-bold flex justify-between active" data-tab="one" onClick={() => accordian('one')}>Customer Portal <span className="accordian-arrow"></span></div>
                             <div data-accordian="one" className="active mb-5">
-                                <p className="text-light lg:max-w-sm">Access your profile from anywhere in the world. Keep up to date on your genealogy, check your status, and keep all your important family documents in one secure place.</p>
+                                <p className="text-light max-w-xs lg:max-w-sm">Access your profile from anywhere in the world. Keep up to date on your genealogy, check your status, and keep all your important family documents in one secure place.</p>
                             </div>
                             <div className="text-lg md:h5 mb-7 font-bold  flex justify-between py-5 border-top-1 border-bottom-1" data-tab="two" onClick={() => accordian('two')}>Family Tree <span className="accordian-arrow"></span></div>
                             <div data-accordian="two">
-                                <p className="text-light mb-16 lg:max-w-sm">Automatically built from your DNA relationships. It’s easy. It’s convenient. It’s just a click away.</p>
+                                <p className="text-light max-w-xs lg:max-w-sm mb-5 sm:mb-10 lg:mb-16">Automatically built from your DNA relationships. It’s easy. It’s convenient. It’s just a click away.</p>
                             </div>
                             <button className="btn-primary mt-8">SIGN UP NOW</button>
                         </div>

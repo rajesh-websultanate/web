@@ -646,7 +646,7 @@
     font-size: 28px;
   }
   .text-xxl{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 800;
   }
 
@@ -750,7 +750,23 @@ border: 1px solid rgba(73, 134, 255, 0.5);
   line-height: 4rem !important;
 }
 .leading-20{
-  line-height: 8rem !important;
+  line-height: 100px !important;
+}
+
+/* helper classes */
+.container-fluid{
+  max-width: 1370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-full{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.h-98{
+  height: 36rem !important;
 }
 
 }
@@ -789,3 +805,5 @@ border: 1px solid rgba(73, 134, 255, 0.5);
     background-position: 619px 44%;
   }
 }
+
+
