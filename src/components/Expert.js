@@ -6,7 +6,7 @@ import expert04 from "../images/expert04.png"
 
 export default function App() {
     return (
-        <div className="container mx-auto px-5 sm:px-10 my-5 sm:my-10 lg:my-20">
+        <div className="container mx-auto px-5 sm:px-10 my-5 sm:my-10 lg:my-24 lg:mx-w-7xl">
             <div className="grid md:grid-cols-2 gap-5 sm:gap-10 lg:gap-20">
                 <div className="justify-center md:justify-start flex">
                     <div className="bg-gray p-4 flex items-end max-w-xs">
@@ -31,7 +31,7 @@ export default function App() {
                 <div className="text-2xl sm:text-3xl md:text-4xl xl:text-xxl max-w-sm md:max-w-lg xl:max-w-4xl text-center mx-auto font-bold leading-loose sm:leading-15 xl:leading-20">We are  <span className="text-orange px-2 pb-2">experts</span>  who lend a <span className="text-blue px-2 pb-2">helping hand</span> to our clients</div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-5 sm:gap-10 lg:gap-20">
+            <div className="grid md:grid-cols-2 gap-5 sm:gap-10 lg:gap-20 lg:max-w-5xl mx-auto">
                 <div className="justify-center md:justify-start flex">
                     <div className="bg-gray p-4 flex items-end max-w-xs">
                         <div className="pr-10">
