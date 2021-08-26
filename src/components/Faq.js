@@ -31,28 +31,28 @@ export default function Faq() {
     }
 
     return (
-        <div className="lg:container-full mx-auto px-16 mt-52">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-10 lg:gap-8rem">
-                <div className="flex justify-between flex-col lg:max-w-md">
-                    <div>
-                        <div className="text-lg sm:text-2xl md:text-3xl landing-3 lg:heading mb-8 font-bold lg:max-w-xs">Questions? Find Them Here</div>
+        <div className="lg:container-full mx-auto sm:px-16 lg:mt-52">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 sm:gap-10 lg:gap-8rem">
+                <div className="flex justify-between flex-col lg:max-w-md mb-14 sm:mb-14 px-4 sm:px-10 md:px-0">
+                    <div className="">
+                        <div className="text-2xl md:text-3xl landing-3 lg:heading mb-4 sm:mb-8 font-bold lg:max-w-xs">Questions? Find Them Here</div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non at egestas ornare ac magna dignissim commodo.</p>
                     </div>
-                    <img src={qa} alt="" className="img-qa" />
+                    <img src={qa} alt="" className="img-qa mt-6 md:mt-0" />
                 </div>
                 <div className="accordion faq">
                     <div className="text-lg md:h5 cursor-pointer font-bold flex justify-between active hover:text-light focus:text-light px-3" data-accordion-tab="five" onClick={() => accordian02('five')}>What are the implications of having dual citizenship?</div>
                     <div data-accordion-content="five" className="active text-light lg:max-w-md px-3">The implications will be the existence of a double legal bond, since people with dual nationality will be nationals of two countries at the same time, enjoying the full legal status of nationals of both States.</div>
                     <div className="border-bottom-1"></div>
 
-                    <div className="text-lg md:h5 cursor-pointer font-bold flex justify-between py-10 hover:text-light focus:text-light px-3" data-accordion-tab="six" onClick={() => accordian02('six')}>What are the services of Sefar Universal? </div>
+                    <div className="text-lg md:h5 cursor-pointer font-bold flex justify-between py-6 sm:py-10 hover:text-light focus:text-light px-3" data-accordion-tab="six" onClick={() => accordian02('six')}>What are the services of Sefar Universal? </div>
                     <div data-accordion-content="six" className="text-light lg:max-w-sm px-3">The implications will be the existence of a double legal bond, since people with dual nationality will be nationals of two countries at the same time, enjoying the full legal status of nationals of both States.</div>
                     <div className="border-bottom-1"></div>
 
-                    <div className="text-lg md:h5 cursor-pointer font-bold flex justify-between py-10 hover:text-light focus:text-light px-3" data-accordion-tab="seven" onClick={() => accordian02('seven')}>Does the United States of America allow dual citizenship?</div>
+                    <div className="text-lg md:h5 cursor-pointer font-bold flex justify-between py-6 sm:py-10 hover:text-light focus:text-light px-3" data-accordion-tab="seven" onClick={() => accordian02('seven')}>Does the United States of America allow dual citizenship?</div>
                     <div data-accordion-content="seven" className="text-light lg:max-w-md px-3">The implications will be the existence of a double legal bond, since people with dual nationality will be nationals of two countries at the same time, enjoying the full legal status of nationals of both States.</div>
-
-                    <p className="text-base text-light mt-12">Can’t find what you are looking for? <b><Link to="/" className="text-dark underline">Check them out here</Link></b></p> 
+                    <div className="border-bottom-1 md:hidden"></div>
+                    <p className="text-base text-light mt-11 sm:mt-12 mx-14 sm:mx-14">Can’t find what you are looking for? <b><Link to="/" className="text-dark underline">Check them out here</Link></b></p> 
                 </div>
             </div>
         </div>
