@@ -13,7 +13,7 @@ export default function Footer() {
                 <div>
                     <img src={logo} className="w-28 object-contain mb-3 sm:mb-0" alt="logo" />
                 </div>
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-10">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
                     <div>
                         <p className="font-bold text-dark">Phone</p>                        
                         <p className="my-5"><span className="font-bold">US:</span> <span className="underline"><a rel="noreferrer" target='_blank' href="tel:+16032621727">+1 6032621727</a></span></p>

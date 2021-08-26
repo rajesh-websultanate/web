@@ -18,9 +18,9 @@ export default function App() {
         <Navigation />
         <Banner />
       </div>
-      <Carousel />
+      {/* <Carousel /> */}
       <Services />
-      <About />
+       <About />
       <Shape />
       <div className="bg-gray">
         <Accesible />
@@ -28,7 +28,7 @@ export default function App() {
         <LegalServices />
       </div>
       <Expert />
-      <Footer />
+      <Footer /> 
     </div>
   )
 }

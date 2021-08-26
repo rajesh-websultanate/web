@@ -633,22 +633,7 @@
     box-shadow: inset -4px -2px 8px #EBF0F9, inset 4px 2px 8px rgba(193, 198, 207, 0.48);
   }
 
-  .heading{
-    font-size: 40px;
-  }
-  .h1{
-    font-size: 80px;
-  }
-  .h5{
-    font-size: 20px;
-  }
-  .h4{
-    font-size: 28px;
-  }
-  .text-xxl{
-    font-size: 70px;
-    font-weight: 800;
-  }
+  
 
   .unorder-list li{
     position: relative;
@@ -701,11 +686,23 @@ border: 1px solid rgba(251, 191, 36, 0.5);
 border: 1px solid rgba(73, 134, 255, 0.5);
 }
 
-.border-top-1{
-  border-top: 1px solid rgba(17, 18, 36, 0.2);
+.slick-arrow{
+  position: relative;
 }
-.border-bottom-1{
-  border-bottom: 1px solid rgba(17, 18, 36, 0.2);
+.slick-arrow.active::before{
+  content: "";
+  transform: rotate(0deg);
+}
+.slick-arrow::before{
+  content: "";
+  background-image: url("./images/right-arrow.png");
+  background-size: contain;
+  height: 18px;
+  width: 18px;
+  transform: rotate(90deg);
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 9px;
 }
 
 .accordion [data-accordion-content].active,
@@ -746,11 +743,8 @@ border: 1px solid rgba(73, 134, 255, 0.5);
   height: auto;
   max-width: 310px;
 }
-.leading-15{
-  line-height: 4rem !important;
-}
-.leading-20{
-  line-height: 100px !important;
+.img-slick{
+  max-width: 417px;
 }
 
 /* helper classes */
@@ -759,7 +753,6 @@ border: 1px solid rgba(73, 134, 255, 0.5);
   margin-left: auto;
   margin-right: auto;
 }
-
 .container-full{
   max-width: 1440px;
   margin-left: auto;
@@ -768,6 +761,84 @@ border: 1px solid rgba(73, 134, 255, 0.5);
 .h-98{
   height: 36rem !important;
 }
+.w-33rem{
+  width: 33rem !important;
+}
+.h-28rem{
+  height: 28rem !important;
+}
+.max-w-6-5{
+  max-width: 6.5rem !important;
+}
+.max-w-26rem{
+  max-width: 26rem !important;
+}
+.landing-3-75{
+  line-height: 3.75rem !important;
+}
+.landing-3{
+  line-height: 3rem !important;
+}
+.leading-15{
+  line-height: 4rem !important;
+}
+.leading-20{
+  line-height: 100px !important;
+}
+
+.mb-4-5{
+  margin-bottom: 4.5rem !important;
+}
+.pr-10-5{
+  padding-right: 10.5rem !important;
+}
+.gap-10rem{
+  gap: 10rem;
+}
+.gap-11rem{
+  gap: 11rem;
+}
+.gap-8rem{
+  gap: 8rem;
+}
+.gap-13-5rem{
+  gap: 13.5rem;
+}
+.gap-14-5rem{
+  gap: 14.5rem;
+}
+.gap-9-5rem{
+  gap: 9.5rem;
+}
+.heading{
+  font-size: 40px;
+}
+.h1{
+  font-size: 80px;
+}
+.h5{
+  font-size: 20px;
+}
+.h4{
+  font-size: 28px;
+}
+.text-xxl{
+  font-size: 70px;
+  font-weight: 800;
+}
+.faq [data-accordion-tab]{
+  padding-bottom: 2.5rem;
+}
+.faq [data-accordion-content].active{
+  padding-bottom: 2.5rem;
+}
+.border-top-1{
+  border-top: 1px solid rgba(17, 18, 36, 0.2);
+}
+.border-bottom-1{
+  border-bottom: 1px solid rgba(17, 18, 36, 0.2);
+}
+
 
 }
 
