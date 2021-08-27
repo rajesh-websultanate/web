@@ -6,7 +6,7 @@ import expert04 from "../images/expert04.png"
 
 export default function App() {
     return (
-        <div className="container-full mx-auto lg:mt-36 md:mb-32 mt-14">
+        <div className="container-full mx-auto lg:mt-36 md:mb-32 mt-3-7">
             <div className="grid lg:grid-cols-2 gap-5 lg:gap-20">
                 <div className="ml-4 xl:ml-9-3rem">
                     <div className="bg-gray pl-7 py-6 pr-3 flex items-end max-w-xs w-64 sm:w-80 h-36 justify-between">
@@ -38,7 +38,7 @@ export default function App() {
             </div>
 
             <div className="grid lg:grid-cols-2 gap-5 lg:gap-20 mx-auto">
-                <div className="ml-4 lg:ml-20 xl:ml-12-5rem mt-16">
+                <div className="ml-4 lg:ml-20 xl:ml-12-5rem mt-12 xl:mt-16">
                     <div className="bg-gray pl-7 py-6 pr-3 flex items-center sm:items-end max-w-xs w-64 sm:w-80 h-36 justify-between">
                         <div className="pr-2 sm:pr-3.5">
                             <p className="font-bold  mb-3">Abel Aranda</p>
@@ -50,7 +50,7 @@ export default function App() {
                     </div>
                 </div>
                 <div className="justify-end flex mr-4 lg:mr-20 xl:mr-10-5rem">
-                    <div className="bg-gray pl-7 py-6 pr-3 flex items-end max-w-xs w-64 sm:w-80 h-32 justify-between mt-12">
+                    <div className="bg-gray pl-7 py-6 pr-3 flex items-end max-w-xs w-64 sm:w-80 h-32 justify-between xl:mt-12">
                         <div className="sm:pr-3.5">
                             <p className="font-bold  mb-3">Mariantonia Palacios</p>
                             <p className="text-xs sm:text-sm pr-10 sm:pr-0">Communications Based at Medellín</p>
@@ -59,7 +59,7 @@ export default function App() {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center md:mb-0 sm:px-4 mt-12 lg:px-0">
+            <div className="flex justify-center md:mb-0 sm:px-4 my-12 lg:px-0">
                 <button className="btn-primary uppercase mx-4">meet our specialists</button>
             </div>
         </div>

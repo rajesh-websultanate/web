@@ -29,7 +29,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="md:flex justify-between items-center text-light mt-11 md:mt-24">
+            <div className="md:flex justify-between items-center text-light mt-12 md:mt-24">
                 <p className="text-sm mb-3 sm:mb-0 hidden md:block">Copyright – 2019 All rights are reserved by SEFAR UNIVERSAL SL.</p>                
                 <nav className="list-none flex items-center md:mr-18">
                     <li className="mr-2.5"><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src={fb} alt=""/></a></li>
@@ -37,7 +37,7 @@ export default function Footer() {
                     <li className="mr-2.5"><a target="_blank" rel="noreferrer" href="https://twitter.com/?lang=en"><img src={twt} alt=""/></a></li>
                     <li className="mr-2.5"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/login"><img src={yt} alt=""/></a></li>
                 </nav>
-                <p className="mt-12 md:hidden">Copyright – 2019 All rights are reserved by SEFAR UNIVERSAL SL.</p>
+                <p className="mt-3-3 md:hidden">Copyright – 2019 All rights are reserved by SEFAR UNIVERSAL SL.</p>
             </div>
         </div>
     )

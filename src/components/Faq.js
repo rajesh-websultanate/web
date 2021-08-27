@@ -31,17 +31,17 @@ export default function Faq() {
     }
 
     return (
-        <div className="container-full mx-auto sm:px-4 xl:px-4-3 lg:mt-40 xl:mt-14-5">
+        <div className="container-full mx-auto sm:px-4 xl:px-4-3 lg:mt-40 xl:mt-56">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 sm:gap-10 lg:gap-8rem">
-                <div className="flex justify-between flex-col lg:max-w-md mb-14 lg:mb-0 sm:px-0 px-4">
-                    <div className="">
+                <div className="flex justify-between flex-col lg:max-w-md sm:px-0 px-4">
+                    <div className="mx-auto sm:px-4">
                         <div className="text-2xl md:text-3xl landing-3 lg:heading mb-4 sm:mb-8 font-bold lg:max-w-xs">Questions? Find Them Here</div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non at egestas ornare ac magna dignissim commodo.</p>
                     </div>
-                    <img src={qa} alt="" className="img-qa mt-6 md:mt-0" />
+                    <img src={qa} alt="" className="img-qa mt-5 md:mt-0" />
                 </div>
                 <div className="accordion faq lg:px-0">
-                    <div className="text-lg md:h5 cursor-pointer font-bold flex justify-between active hover:text-light focus:text-light px-3" data-accordion-tab="five" onClick={() => accordian02('five')}>What are the implications of having dual citizenship?</div>
+                    <div className="text-lg md:h5 cursor-pointer font-bold flex justify-between active hover:text-light focus:text-light px-3 mt-3-7 lg:mt-0" data-accordion-tab="five" onClick={() => accordian02('five')}>What are the implications of having dual citizenship?</div>
                     <div data-accordion-content="five" className="active text-light lg:max-w-md px-3">The implications will be the existence of a double legal bond, since people with dual nationality will be nationals of two countries at the same time, enjoying the full legal status of nationals of both States.</div>
                     <div className="border-bottom-1"></div>
 
@@ -52,7 +52,7 @@ export default function Faq() {
                     <div className="text-lg md:h5 cursor-pointer font-bold flex justify-between py-6 sm:py-10 hover:text-light focus:text-light px-3" data-accordion-tab="seven" onClick={() => accordian02('seven')}>Does the United States of America allow dual citizenship?</div>
                     <div data-accordion-content="seven" className="text-light lg:max-w-md px-3">The implications will be the existence of a double legal bond, since people with dual nationality will be nationals of two countries at the same time, enjoying the full legal status of nationals of both States.</div>
                     <div className="border-bottom-1"></div>
-                    <p className="text-base text-light mt-11 sm:mt-12 md:mt-10 mx-14 sm:mx-3 font-bold">Can’t find what you are looking for? <b><Link to="/" className="text-dark underline">Check them out here</Link></b></p>                     
+                    <p className="text-base text-light mt-11 sm:mt-12 md:mt-10 mx-12 sm:mx-3 font-bold"><span className="text-sm md:text-base">Can’t find what you are looking for?</span> <b><Link to="/" className="text-dark underline">Check them out here</Link></b></p>                     
                 </div>
             </div>
         </div>

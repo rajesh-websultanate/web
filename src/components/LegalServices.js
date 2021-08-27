@@ -8,12 +8,12 @@ import legalarrow02 from "../images/legal-arrow02.png"
 
 export default function LegalServices() {
     return (
-        <div className="pt-14 lg:mt-9-3 pb-12 xl:pb-6-5rem">
+        <div className="mt-3-7 lg:mt-9-3 pb-12 xl:pb-6-5rem">
             <div className="container-full px-4">
                 <div className="text-lg text-3xl md:heading sm:px-0 lg:px-28 lg:text-center mb-3 md:mb-5 md:mb-10 lg:mb-6-3 font-bold">LegelServices</div>
             </div>
             <div className="container-full mx-auto xl:px-16 px-4">
-                <div className="grid lg:grid-cols-2 xl:grid-cols-3">
+                <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-0">
                     <div className="group">
                         <div className="pt-12 pb-3 sm:py-12 px-8 xl:px-10 box-legal duration-200 w-full xl:w-420 xl:h-576">
                             <img src={Legal01} alt="" className="img-responsive mb-10 sm:mb-14" />

@@ -23,7 +23,7 @@ export default function Accessibles() {
                 <div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                         <div>
-                            <div className="text-2xl md:text-3xl lg:heading mb-11 font-bold sm:mt-10 mt-14">Accesible from anywhere</div>
+                            <div className="text-2xl md:text-3xl lg:heading mb-11 font-bold sm:mt-10 mt-3-7">Accesible from anywhere</div>
                             <div className="text-lg md:h5 mb-5 font-bold flex justify-between active cursor-pointer">Customer Portal <span className="slick-arrow active"></span></div>
                             <div className="my-7 mb-12 lg:mb-0">
                                 <p className="text-light max-w-xs lg:max-w-md">Access your profile from anywhere in the world. Keep up to date on your genealogy, check your status, and keep all your important family documents in one secure place.</p>
@@ -51,7 +51,7 @@ export default function Accessibles() {
                     </div>
                 </div>
             </Slider>
-            <button className="btn-primary uppercase mt-14 mb-10">SIGN UP NOW</button>
+            <button className="btn-primary uppercase mt-3-6 mb-8">SIGN UP NOW</button>
         </div>
     )
 }

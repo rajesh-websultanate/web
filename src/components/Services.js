@@ -6,19 +6,19 @@ export default function Services() {
     return (
         <div className="container-full mx-auto px-4 xl:px-4-3 lg:my-20 xl:my-8-5">
             <p className="text-2xl lg:heading mb-0 sm:mb-10 xl:mb-16 md:text-center font-bold lg:mb-16 mb-11">Genealogy Services</p>
-            <div className="lg:pl-14 xl:pl-24 pb-20 section shadow-md lg:pb-14 lg:flex">
+            <div className="lg:pl-14 xl:pl-24 pb-3-7 section shadow-md lg:pb-14 lg:flex">
                 <div className="bg-light-gray lg:w-33rem pt-14 pb-14 lg:py-20">
                     <div className="text-center">
-                        <img src={Profile01} alt="" className="block mx-auto mb-16" />
+                        <img src={Profile01} alt="" className="block mx-auto mb-10 xl:mb-16" />
                         <div className="flex items-start justify-center mb-2.5 md:mb-5">
-                            <img src={Euro} alt="" className="h4" />
+                            <img src={Euro} alt="" className="h4 mt-2 md:mt-0" />
                             <p className="font-bold text-primary h1 landing-3-75">50</p>
                         </div>
                         <p className="h5 font-bold">Genealogical Research</p>
                     </div>
                 </div>
                 <div className="px-5 lg:px-20 xl:pl-32 xl:pr-32">
-                    <ul className="list-none unorder-list mt-14 mb-9 lg:my-20">
+                    <ul className="list-none unorder-list mt-3-3 mb-9 lg:my-20">
                         <li>Comprehensive research journal</li>
                         <li>Copies of all images and documents</li>
                         <li>Professional summary of the completed research</li>
