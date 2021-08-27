@@ -7,7 +7,7 @@ import yt from '../images/yt.png'
 
 export default function Footer() {
     return (
-        <div className="lg:container-full mx-auto px-4 sm:px-10 lg:px-16 pb-12 md:pb-20">
+        <div className="container-full mx-auto px-4 xl:px-4-3 pb-12 md:pb-20">
             <div className="border-top-1 pb-8 sm:pb-12"></div>
             <div className="grid sm:grid-cols-1 xl:grid-cols-2 gap-5 sm:gap-10 text-light">
                 <div>

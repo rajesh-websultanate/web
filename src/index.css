@@ -636,16 +636,21 @@
 
   .unorder-list li{
     position: relative;
+    display: flex;
+    line-height: 25px;
   }
   .unorder-list li::before{
     content: "";
     background-image: url("./images/dots.png");
     background-repeat: no-repeat;
-    padding-left: 2rem;
-    margin-bottom: 1.3rem;
-    height: 20px;
+    margin-right: 20px;
+    margin-bottom: 28px;
     position: relative;
-    left: 0px;
+    min-width: 20px;
+    min-height: 20px;
+    line-height: 18px;
+    background-size: contain;
+    top: 2px;
   }
   .section{
     background: #F6F6F6;
@@ -829,7 +834,19 @@ border: 1px solid rgba(73, 134, 255, 0.5);
   padding-bottom: 2.5rem;
 }
 .faq [data-accordion-content].active{
-  padding-bottom: 2.5rem;
+    padding-bottom: 40px;
+}
+.ml-12-5rem{
+  margin-left: 12.5rem !important;
+}
+.mr-10-5rem{
+  margin-right: 10.5rem !important;
+}
+.ml-9-3rem{
+  margin-left: 9.3rem !important;
+}
+.pb-6-5rem{
+  padding-bottom: 6.5rem !important;
 }
 .border-top-1{
   border-top: 1px solid rgba(17, 18, 36, 0.2);
@@ -845,13 +862,51 @@ box-shadow: 4px 4px 100px rgba(113, 120, 133, 0.15);
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+.px-4-3{
+  padding-left: 4.3rem;
+  padding-right: 4.3rem;
+}
 
+}
+
+/* container media query */
+@media only screen and (min-width: 545px) and (max-width: 768px){
+  .container-full{
+    max-width: 575px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px){
+  .container-full{
+    max-width: 769px;
+  }
+  .slick-arrow::before{
+    content: "";
+    width: 22px;
+    height: 22px;
+    right: 0px;
+  }
+  .slick-arrow.active::before{
+    content: "";
+    transform: rotate(268deg);    
+    top: 0px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1024px){
+  .container-full{
+    max-width: 993px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1250px){
+  .container-full{
+    max-width: 1025px;
+  }
 }
 
 
 
 
-@media only screen and (min-width: 0px) and (max-width: 767px){
+
+@media only screen and (min-width: 0px) and (max-width: 768px){
 
   /* helper classes */
   .bg-body{
@@ -865,7 +920,7 @@ box-shadow: 4px 4px 100px rgba(113, 120, 133, 0.15);
   }
 
   .btn-primary{
-    @apply px-4 py-5 sm:mx-0 w-full sm:w-auto text-base
+    @apply px-4 py-5 sm:mx-0 w-full lg:w-auto text-base
   }
   .faq [data-accordion-tab] {
     padding-bottom: 1.5rem;
@@ -911,7 +966,7 @@ box-shadow: 4px 4px 100px rgba(113, 120, 133, 0.15);
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px){
+@media only screen and (min-width: 769px) and (max-width: 1199px){
   .about-shadow{
     background: unset;
   box-shadow: unset;

@@ -18,16 +18,18 @@ export default function Accessibles() {
     };
 
     return (
-        <div className="lg:container-full mx-auto px-5 psm:px-10 md:px-24 block md:hidden">
+        <div className="container-full mx-auto px-4 block lg:hidden">
             <Slider {...settings} ref={slider}>
                 <div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                         <div>
                             <div className="text-2xl md:text-3xl lg:heading mb-11 font-bold sm:mt-10 mt-14">Accesible from anywhere</div>
                             <div className="text-lg md:h5 mb-5 font-bold flex justify-between active cursor-pointer">Customer Portal <span className="slick-arrow active"></span></div>
-                            <div className="my-7 mb-12 md:mb-0">
+                            <div className="my-7 mb-12 lg:mb-0">
                                 <p className="text-light max-w-xs lg:max-w-md">Access your profile from anywhere in the world. Keep up to date on your genealogy, check your status, and keep all your important family documents in one secure place.</p>
-                                <img src={device01} alt="" className="img-slick mt-5 md:mt-0" />
+                                <div className="flex justify-center">
+                                    <img src={device01} alt="" className="img-slick mt-5 lg:mt-0" />
+                                </div>
                             </div>
                             <div className="text-lg md:h5 font-bold  flex justify-between py-6	 md:py-7 border-top-1 border-bottom-1 cursor-pointer" onClick={() => slider?.current?.slickNext()}>Family Tree <span className="slick-arrow"></span></div>
                         </div>
@@ -36,12 +38,14 @@ export default function Accessibles() {
                 <div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                         <div>
-                        <div className="text-2xl md:text-3xl lg:heading mb-11 font-bold sm:mt-10 mt-14">Accesible from anywhere</div>
+                            <div className="text-2xl md:text-3xl lg:heading mb-11 font-bold sm:mt-10 mt-14">Accesible from anywhere</div>
                             <div className="text-lg md:h5 pb-7 font-bold flex justify-between active cursor-pointer" onClick={() => slider?.current?.slickNext()}>Customer Portal <span className="slick-arrow"></span></div>
                             <div className="text-lg md:h5 font-bold  flex justify-between pt-5 sm:pt-7 border-top-1 cursor-pointer">Family Tree <span className="slick-arrow active"></span></div>
                             <div className="pt-5 pb-14 sm:py-7 border-bottom-1">
                                 <p className="text-light max-w-xs lg:max-w-md">Automatically built from your DNA relationships. It’s easy. It’s convenient. It’s just a click away.</p>
-                                <img src={device02} alt="" className="img-slick mt-5 md:mt-0" />
+                                <div className="flex justify-center">
+                                    <img src={device02} alt="" className="img-slick mt-5 lg:mt-0" />
+                                </div>
                             </div>
                         </div>
                     </div>
