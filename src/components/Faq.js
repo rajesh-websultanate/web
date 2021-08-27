@@ -31,7 +31,7 @@ export default function Faq() {
     }
 
     return (
-        <div className="container-full mx-auto sm:px-4 xl:px-4-3 lg:mt-40 xl:mt-52">
+        <div className="container-full mx-auto sm:px-4 xl:px-4-3 lg:mt-40 xl:mt-14-5">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 sm:gap-10 lg:gap-8rem">
                 <div className="flex justify-between flex-col lg:max-w-md mb-14 lg:mb-0 sm:px-0 px-4">
                     <div className="">

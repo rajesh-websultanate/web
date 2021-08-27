@@ -18,7 +18,7 @@ export default function Accordions() {
     };
 
     return (
-        <div className="container-full mx-auto px-24 lg:px-4 xl:px-24 hidden lg:block">
+        <div className="container-full mx-auto px-24 lg:px-4 xl:pl-28 xl:pr-36 hidden lg:block">
             <Slider {...settings} ref={slider}>
                 <div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">

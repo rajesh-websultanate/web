@@ -4,7 +4,7 @@ import Euro from '../images/euro.png'
 
 export default function Services() {
     return (
-        <div className="container-full mx-auto px-4 xl:px-4-3 lg:my-20 xl:my-32">
+        <div className="container-full mx-auto px-4 xl:px-4-3 lg:my-20 xl:my-8-5">
             <p className="text-2xl lg:heading mb-0 sm:mb-10 xl:mb-16 md:text-center font-bold lg:mb-16 mb-11">Genealogy Services</p>
             <div className="lg:pl-14 xl:pl-24 pb-20 section shadow-md lg:pb-14 lg:flex">
                 <div className="bg-light-gray lg:w-33rem pt-14 pb-14 lg:py-20">
